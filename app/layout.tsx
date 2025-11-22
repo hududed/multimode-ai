@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     "custom software",
     "AI integration",
   ],
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
