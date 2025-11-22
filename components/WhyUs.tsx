@@ -1,8 +1,8 @@
 const reasons = [
   {
-    title: "ethical alternative",
+    title: "values-aligned",
     description:
-      "No Wix, Squarespace, or other Israeli-based vendors. Build with a clear conscience.",
+      "Built with tools and vendors you can feel good about. Your project, your principles.",
   },
   {
     title: "muslim-owned",
