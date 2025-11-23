@@ -15,6 +15,22 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.png",
   },
+  metadataBase: new URL("https://multimodeai.com"),
+  openGraph: {
+    title: "MultiMode AI - Halal Web Development & AI Solutions",
+    description:
+      "Professional web development, custom software, and AI solutions. Muslim-owned. No compromises.",
+    url: "https://multimodeai.com",
+    siteName: "MultiMode AI",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "MultiMode AI - Halal Web Development & AI Solutions",
+    description:
+      "Professional web development, custom software, and AI solutions. Muslim-owned. No compromises.",
+  },
 };
 
 export default function RootLayout({
