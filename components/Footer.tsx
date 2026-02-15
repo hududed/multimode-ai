@@ -6,10 +6,10 @@ export default function Footer() {
           © {new Date().getFullYear()} MultiMode AI. All rights reserved.
         </p>
         <a
-          href="mailto:hud@multimodeai.com"
+          href="mailto:hello@multimodeai.com"
           className="text-warm-gray text-sm hover:text-charcoal transition-colors"
         >
-          hud@multimodeai.com
+          hello@multimodeai.com
         </a>
       </div>
     </footer>

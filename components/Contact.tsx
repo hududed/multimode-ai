@@ -49,10 +49,10 @@ export default function Contact() {
 
         <div className="mb-10">
           <a
-            href="mailto:hud@multimodeai.com"
+            href="mailto:hello@multimodeai.com"
             className="text-charcoal hover:text-sage-dark transition-colors font-medium"
           >
-            hud@multimodeai.com
+            hello@multimodeai.com
           </a>
         </div>
 
