@@ -2,31 +2,32 @@ const reasons = [
   {
     title: "values-aligned",
     description:
-      "Built with tools and vendors you can feel good about. Your project, your principles.",
+      "Built with tools and vendors you can feel good about. Your data stays yours.",
   },
   {
     title: "muslim-owned",
-    description: "Supporting the ummah, one project at a time.",
+    description: "Supporting the ummah, one business at a time.",
   },
   {
-    title: "done-for-you",
+    title: "private by default",
     description:
-      "No DIY headaches. We handle everything from design to deployment.",
+      "Your AI agent runs on isolated infrastructure. Not shared. Not scraped.",
   },
   {
-    title: "modern stack",
-    description: "Fast, secure, SEO-optimized. Built with the latest tech.",
+    title: "human in the loop",
+    description:
+      "Every agent is built so you approve, review, and override. AI handles the work, you make the calls.",
   },
   {
     title: "direct access",
     description:
-      "Talk to the developer directly. No support tickets, no runaround.",
+      "Talk to the builder directly. No support tickets, no runaround.",
   },
 ];
 
 export default function WhyUs() {
   return (
-    <section id="why-us" className="px-6 md:px-12 lg:px-24 py-24">
+    <section id="why-us" className="px-6 md:px-12 lg:px-24 py-24 bg-beige">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-semibold mb-16">
           why choose us

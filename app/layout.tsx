@@ -2,34 +2,35 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MultiMode AI - Halal Web Development & AI Solutions",
+  title: "Multimode AI - AI Agents for Your Business",
   description:
-    "Professional web development, custom software, and AI solutions. Muslim-owned. No compromises. Your ethical alternative to mainstream vendors.",
+    "Private AI agents that handle bookings, answer customers, and run daily operations — on WhatsApp, web, and email. Muslim-owned. Values-aligned.",
   keywords: [
-    "halal web development",
-    "muslim web developer",
-    "ethical web design",
-    "custom software",
-    "AI integration",
+    "AI agent",
+    "business automation",
+    "WhatsApp chatbot",
+    "appointment booking AI",
+    "AI assistant for business",
+    "muslim-owned tech",
   ],
   icons: {
     icon: "/favicon.png",
   },
   metadataBase: new URL("https://multimodeai.com"),
   openGraph: {
-    title: "MultiMode AI - Halal Web Development & AI Solutions",
+    title: "Multimode AI - AI Agents for Your Business",
     description:
-      "Professional web development, custom software, and AI solutions. Muslim-owned. No compromises.",
+      "Private AI agents that handle bookings, answer customers, and run daily operations. Muslim-owned. Values-aligned.",
     url: "https://multimodeai.com",
-    siteName: "MultiMode AI",
+    siteName: "Multimode AI",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary",
-    title: "MultiMode AI - Halal Web Development & AI Solutions",
+    title: "Multimode AI - AI Agents for Your Business",
     description:
-      "Professional web development, custom software, and AI solutions. Muslim-owned. No compromises.",
+      "Private AI agents that handle bookings, answer customers, and run daily operations. Muslim-owned. Values-aligned.",
   },
 };
 

@@ -37,13 +37,14 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="px-6 md:px-12 lg:px-24 py-24 bg-beige">
+    <section id="contact" className="px-6 md:px-12 lg:px-24 py-24">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-semibold mb-4">
-          let&apos;s build something together.
+          stop doing what a machine should do.
         </h2>
         <p className="text-warm-gray mb-12">
-          drop us a message and we&apos;ll get back to you within 24 hours.
+          book a 15-minute call. we&apos;ll show you what your agent could
+          handle by next week.
         </p>
 
         <div className="mb-10">
@@ -92,7 +93,7 @@ export default function Contact() {
 
           <div>
             <label htmlFor="message" className="block text-sm font-medium mb-2">
-              message
+              what&apos;s eating your time?
             </label>
             <textarea
               id="message"
@@ -103,7 +104,7 @@ export default function Contact() {
                 setFormData({ ...formData, message: e.target.value })
               }
               className="w-full px-4 py-3 bg-cream border border-warm-gray/20 focus:border-sage focus:outline-none transition-colors resize-none"
-              placeholder="tell us about your project"
+              placeholder="bookings, customer messages, daily ops..."
             />
           </div>
 
@@ -112,12 +113,12 @@ export default function Contact() {
             disabled={status === "sending"}
             className="bg-charcoal text-cream px-8 py-4 text-sm font-medium tracking-wide hover:bg-sage-dark transition-colors duration-300 disabled:opacity-50"
           >
-            {status === "sending" ? "sending..." : "send message"}
+            {status === "sending" ? "sending..." : "book a consultation"}
           </button>
 
           {status === "sent" && (
             <p className="text-sage-dark text-sm">
-              message sent! we&apos;ll get back to you soon.
+              message sent! we&apos;ll get back to you within 24 hours.
             </p>
           )}
 
